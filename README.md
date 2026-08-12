@@ -16,17 +16,17 @@
   </tr>
   <tr align="center">
     <td><img src="examples/origin1.jpg" width="100%"></td>
-    <td>（带字版待补充）</td>
+    <td><img src="examples/text1.png" width="100%"></td>
     <td><img src="examples/change1.png" width="100%"></td>
   </tr>
   <tr align="center">
     <td><img src="examples/origin2.jpg" width="100%"></td>
-    <td>（带字版待补充）</td>
+    <td><img src="examples/text2.png" width="100%"></td>
     <td><img src="examples/change2.png" width="100%"></td>
   </tr>
 </table>
 
-每个原始随拍可以分别生成带字的和无字的两种海报。
+每个原始随拍分别生成带字的和无字的两种海报。
 
 ## 这个 Skill 做什么
 
@@ -67,8 +67,10 @@
 │   └── prompt-en.md          英文 prompt（图像模型可读）
 └── examples/
     ├── origin1.jpg           原始随拍 1
+    ├── text1.png             带字版 1
     ├── change1.png           无字版 1
     ├── origin2.jpg           原始随拍 2
+    ├── text2.png             带字版 2
     └── change2.png           无字版 2
 ```
 
