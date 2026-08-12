@@ -16,12 +16,17 @@
   </tr>
   <tr align="center">
     <td><img src="examples/origin1.jpg" width="100%"></td>
-    <td>（带字版图片待补充）</td>
+    <td>（带字版待补充）</td>
     <td><img src="examples/change1.png" width="100%"></td>
+  </tr>
+  <tr align="center">
+    <td><img src="examples/origin2.jpg" width="100%"></td>
+    <td>（带字版待补充）</td>
+    <td><img src="examples/change2.png" width="100%"></td>
   </tr>
 </table>
 
-带字版、无字版为同一张原始随拍分别生成的两种海报。
+每个原始随拍可以分别生成带字的和无字的两种海报。
 
 ## 这个 Skill 做什么
 
@@ -61,9 +66,10 @@
 │   ├── prompt-zh.md          原创中文 prompt
 │   └── prompt-en.md          英文 prompt（图像模型可读）
 └── examples/
-    ├── origin1.jpg           原始随拍
-    ├── text1.png             带字版（待补充）
-    └── change1.png           无字版
+    ├── origin1.jpg           原始随拍 1
+    ├── change1.png           无字版 1
+    ├── origin2.jpg           原始随拍 2
+    └── change2.png           无字版 2
 ```
 
 这是个人原创的创意玩法：保留真实随手拍，再加一点天马行空的小人故事。
