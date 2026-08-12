@@ -1,30 +1,27 @@
 # 真实食物 × 儿童简笔画 竖版海报
 
-## 初心
-
 保留随手拍里最真实的食物质感，再给照片加一点天马行空的故事。于是让一群歪歪扭扭的小人跑进画面：有人搬食材、有人爬梯子、有人撒配料，也有人偷偷尝一口。真实摄影和儿童简笔画碰在一起，让普通生活照也能变成一张有趣的小海报。
 
 > 这套玩法不只限于食物，以后还会继续延伸到咖啡、甜品、旅行和日常物件——把每一张随手拍，都变成一个小剧场。
 
-这是一个图像生成 Skill：上传一张真实食物随拍，生成“真实食物 + 儿童简笔画小人”的竖版海报。核心是**保留照片里真实食物的质感**，再让一群歪歪扭扭的小人跑进来讲故事，而不是把整张照片卡通化。
+这是一个图像生成 Skill：上传一张真实食物随拍，生成「真实食物 + 儿童简笔画小人」的竖版海报。核心是**保留照片里真实食物的质感**，再让一群歪歪扭扭的小人跑进来讲故事，而不是把整张照片卡通化。
 
 ## 效果
 
-原始随拍 → 生成海报：
-
-<table>
-  <tr>
-    <th>原始随拍 1</th><th>效果 1</th><th>原始随拍 2</th><th>效果 2</th>
+<table align="center">
+  <tr align="center">
+    <th width="33%">原始</th>
+    <th width="33%">带字版</th>
+    <th width="33%">无字版</th>
   </tr>
-  <tr>
-    <td><img src='examples/origin1.jpg' width='100%'></td>
-    <td><img src='examples/change1.png' width='100%'></td>
-    <td><img src='examples/origin2.jpg' width='100%'></td>
-    <td><img src='examples/change2.png' width='100%'></td>
+  <tr align="center">
+    <td><img src="examples/origin1.jpg" width="100%"></td>
+    <td>（带字版图片待补充）</td>
+    <td><img src="examples/change1.png" width="100%"></td>
   </tr>
 </table>
 
-（素材在 `examples/` 目录：原始随拍 + 生成效果，一一对应。）
+带字版、无字版为同一张原始随拍分别生成的两种海报。
 
 ## 这个 Skill 做什么
 
@@ -64,10 +61,9 @@
 │   ├── prompt-zh.md          原创中文 prompt
 │   └── prompt-en.md          英文 prompt（图像模型可读）
 └── examples/
-    ├── origin1.jpg           原始随拍 1
-    ├── change1.png           效果 1
-    ├── origin2.jpg           原始随拍 2
-    └── change2.png           效果 2
+    ├── origin1.jpg           原始随拍
+    ├── text1.png             带字版（待补充）
+    └── change1.png           无字版
 ```
 
 这是个人原创的创意玩法：保留真实随手拍，再加一点天马行空的小人故事。
